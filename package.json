@@ -1,0 +1,26 @@
+{
+  "name": "homework-nine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "compile:sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidkose/jon-mvc-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aidkose/jon-mvc-tutorial/issues"
+  },
+  "homepage": "https://github.com/aidkose/jon-mvc-tutorial#readme",
+  "devDependencies": {
+    "sass": "^1.50.0"
+  }
+}
