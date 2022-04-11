@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aidkose/jon-mvc-tutorial.git"
+    "url": "git+https://github.com/N215-aidkose/homework-nine.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aidkose/jon-mvc-tutorial/issues"
+    "url": "https://github.com/N215-aidkose/homework-nine/issues"
   },
-  "homepage": "https://github.com/aidkose/jon-mvc-tutorial#readme",
+  "homepage": "https://github.com/N215-aidkose/homework-nine#readme",
   "devDependencies": {
     "sass": "^1.50.0"
   }

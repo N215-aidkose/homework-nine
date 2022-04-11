@@ -1,28 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 html, body {
- height: 100%
+  height: 100%;
 }
+
 h1, h2, h3, h4, h5, h6, p {
- margin-bottom: 16px
+  margin-bottom: 16px;
 }
 
 nav {
-    height: 50px;
-    background-color: black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 75px;
+  background-color: rgb(215, 236, 255);
 }
-
 nav a {
-    text-decoration: none;
-    color: white;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+nav a:hover {
+  font-style: italic;
 }
 
-#app {
-    padding: 50px;
+.fullsite {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
 }
+
+.fullsite .home-content .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right, rgba(20, 58, 88, 0.6), rgba(20, 58, 88, 0.6)), url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.fullsite .home-content .hero h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 60px;
+  color: rgb(214, 242, 255);
+  margin-left: 30px;
+}
+.fullsite .home-content .hero p {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  color: rgb(237, 251, 255);
+  font-style: italic;
+  margin-left: 30px;
+}
+.fullsite .home-content .mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(215, 236, 255);
+}
+.fullsite .home-content .mission h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 60px;
+  color: black;
+}
+.fullsite .home-content .mission p {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: black;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=styles.css.map */
