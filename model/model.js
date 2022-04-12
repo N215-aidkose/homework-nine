@@ -88,7 +88,22 @@ var menuContent = `<div class="fullsite">
   <div class="blocker"></div>
 </div>
 </div>`;
-var contactContent = ``;
+var contactContent = `<div class="fullsite">
+<div class="contact-content">
+  <div class="header-text">Contact Us:</div>
+  <div class="contact-form">
+    <input type="text" id="fName" placeholder="first name..." />
+    <input type="text" id="fName" placeholder="last name..." />
+    <input type="text" id="fName" placeholder="email..." />
+    <input type="text" id="fName" placeholder="phone number..." />
+    <div class="button">SUBMIT</div>
+  </div>
+  <div class="thank-you">
+    <h1>Thank you for visiting our website.</h1>
+    <p>We hope to see you in our restaurant soon!</p>
+  </div>
+</div>
+</div>`;
 
 // THIS FUNCTION IS BEING CALLED BY app.js which has the page name
 export function modelPageName(pgName) {

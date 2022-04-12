@@ -244,4 +244,65 @@ nav a:hover {
   height: 100px;
 }
 
+.fullsite .contact-content .header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 60px;
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.fullsite .contact-content .contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fullsite .contact-content .contact-form input {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 24px;
+  border: 2px solid lightblue;
+  padding-left: 10px;
+}
+.fullsite .contact-content .contact-form .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  border-radius: 40px;
+  background-color: lightblue;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+  margin-bottom: 130px;
+}
+.fullsite .contact-content .thank-you {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(to right, rgba(20, 58, 88, 0.6), rgba(20, 58, 88, 0.6)), url(../images/hero2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fullsite .contact-content .thank-you h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 60px;
+  color: white;
+}
+.fullsite .contact-content .thank-you p {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  color: white;
+}
+
 /*# sourceMappingURL=styles.css.map */
