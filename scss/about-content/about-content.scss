@@ -1,0 +1,74 @@
+.fullsite {
+    width: 100%;
+    height: 100%;
+    .about-content {
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 60px;
+            color: black;
+            margin-top: 25px;
+            margin-bottom: 50px;
+        }
+        .chef {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            width: 1000px;
+            height: 300px;
+            // background-color: yellow;
+            position: relative;
+            margin-bottom: 100px;
+            .chef-pic1 {
+                height: 300px;
+                width: 300px;                    
+                background-color: pink;
+                background-image: url(../images/chef1.jfif);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 50%;
+            }
+            .chef-pic2 {
+                height: 300px;
+                width: 300px;                    
+                background-color: pink;
+                background-image: url(../images/chef2.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 50%;
+            }
+            .chef-pic3 {
+                height: 300px;
+                width: 300px;                    
+                background-color: pink;
+                background-image: url(../images/chef3.webp);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 50%;
+            }
+            .chef-header {
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 30px;
+                color: black;
+                position: absolute;
+                top: 50px;
+                right: 500px;
+            }
+            .chef-text {
+                width: 500px;
+                position: absolute;
+                bottom: 100px;
+                left: 364px;
+                ont-family: 'Playfair Display', serif;
+                font-size: 20px;
+            }
+        }
+    }
+}

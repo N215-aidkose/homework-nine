@@ -84,4 +84,164 @@ nav a:hover {
   font-style: italic;
 }
 
+.fullsite {
+  width: 100%;
+  height: 100%;
+}
+.fullsite .about-content h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 60px;
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.fullsite .about-content .chef {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1000px;
+  height: 300px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.fullsite .about-content .chef .chef-pic1 {
+  height: 300px;
+  width: 300px;
+  background-color: pink;
+  background-image: url(../images/chef1.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.fullsite .about-content .chef .chef-pic2 {
+  height: 300px;
+  width: 300px;
+  background-color: pink;
+  background-image: url(../images/chef2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.fullsite .about-content .chef .chef-pic3 {
+  height: 300px;
+  width: 300px;
+  background-color: pink;
+  background-image: url(../images/chef3.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.fullsite .about-content .chef .chef-header {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  color: black;
+  position: absolute;
+  top: 50px;
+  right: 500px;
+}
+.fullsite .about-content .chef .chef-text {
+  width: 500px;
+  position: absolute;
+  bottom: 100px;
+  left: 364px;
+  ont-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+
+.fullsite .menu-content {
+  margin: 0 auto;
+}
+.fullsite .menu-content h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 60px;
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.fullsite .menu-content .menu-item-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 1000px;
+  height: 400px;
+  background-image: linear-gradient(to right, rgba(20, 58, 88, 0.6), rgba(20, 58, 88, 0.6)), url(../images/food1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 100px;
+}
+.fullsite .menu-content .menu-item-one p {
+  width: 70%;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  margin-top: 100px;
+}
+.fullsite .menu-content .menu-item-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 1000px;
+  height: 400px;
+  background-image: linear-gradient(to right, rgba(20, 58, 88, 0.6), rgba(20, 58, 88, 0.6)), url(../images/food2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 100px;
+}
+.fullsite .menu-content .menu-item-two p {
+  width: 70%;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  margin-top: 100px;
+}
+.fullsite .menu-content .menu-item-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 1000px;
+  height: 400px;
+  background-image: linear-gradient(to right, rgba(20, 58, 88, 0.6), rgba(20, 58, 88, 0.6)), url(../images/food3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.fullsite .menu-content .menu-item-three p {
+  width: 70%;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  margin-top: 100px;
+}
+.fullsite .menu-content .blocker {
+  width: 100%;
+  height: 100px;
+}
+
 /*# sourceMappingURL=styles.css.map */
